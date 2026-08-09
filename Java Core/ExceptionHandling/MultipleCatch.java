@@ -10,7 +10,7 @@
             String s = null;
             System.out.println(s.length());
 
-        } catch (ArithmeticExceptionDemo e) {
+        } catch (ArithmeticException e) {
             System.out.println("divide by zero is not allowed");
         }
         catch(NullPointerException e){
